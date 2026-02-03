@@ -60,24 +60,29 @@ Opens a browser interface via Gradio.
 
 Provides a shareable link for external access.
 
-🎯 Inputs
-Input	Type	Description
-Gender	Radio	M / F
-Age	Number	Student's age (default 18)
-Address	Radio	Urban / Rural
-Family Size	Radio	GT3 / LE3
-Parent Status	Radio	Together / Apart
-Mother's Education	Slider	0–4
-Father's Education	Slider	0–4
-Mother's Job	Dropdown	At_home / Health / Other / Services / Teacher
-Father's Job	Dropdown	Teacher / Other / Services / Health / Business / Farmer
-Relationship	Radio	Yes / No
-Smoker	Radio	Yes / No
-Tuition Fee	Number	Annual fee
-Time with Friends	Slider	1–5
-SSC Result (GPA)	Number	GPA in SSC
+## 🎯 Inputs
+
+| Input               | Type     | Example / Options                         |
+|--------------------|----------|-------------------------------------------|
+| Gender             | Radio    | `M` / `F`                                 |
+| Age                | Number   | `18`                                      |
+| Address            | Radio    | `Urban` / `Rural`                         |
+| Family Size        | Radio    | `GT3` / `LE3`                             |
+| Parent Status      | Radio    | `Together` / `Apart`                      |
+| Mother's Education | Slider   | `0–4`                                     |
+| Father's Education | Slider   | `0–4`                                     |
+| Mother's Job       | Dropdown | `At_home`, `Health`, `Other`, `Services`, `Teacher` |
+| Father's Job       | Dropdown | `Teacher`, `Other`, `Services`, `Health`, `Business`, `Farmer` |
+| Relationship       | Radio    | `Yes` / `No`                              |
+| Smoker             | Radio    | `Yes` / `No`                              |
+| Tuition Fee        | Number   | `Annual fee`                              |
+| Time with Friends  | Slider   | `1–5`                                     |
+| SSC Result (GPA)   | Number   | `GPA in SSC`                              |
+
+---
+
 🖥 Output
-Predicted HSC GPA as a float between 0–5
+Predicted HSC GPA as a float between 0 to 5
 
 Example:
 Predicted HSC Result: 4.25
