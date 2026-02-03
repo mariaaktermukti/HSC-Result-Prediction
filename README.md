@@ -86,3 +86,13 @@ Predicted HSC GPA as a float between 0 to 5
 
 Example:
 Predicted HSC Result: 4.25
+
+## 📸 Screenshots
+
+### Full App
+<img width="1919" height="1079" alt="full with app" src="https://github.com/user-attachments/assets/95106ef7-01a2-45cd-be7a-d4d17711a3c4" />
+
+### UI Dashboard
+<img width="1915" height="1079" alt="ui dashboard app" src="https://github.com/user-attachments/assets/6c813989-da98-4a80-9ce2-9b842537e88c" />
+
+
